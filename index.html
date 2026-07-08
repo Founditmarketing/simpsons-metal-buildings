@@ -596,7 +596,7 @@ jQuery(document).ready(function(){
 				<span class="et_pb_section_video_bg  ">
 					
 			<video class="claude-defer-play" preload="none" poster="wp-content/uploads/2022/03/DF778459-126F-4D78-9A78-922E0653ED87.jpg" loop="loop" playsinline muted >
-				<source type="video/mp4" data-src="wp-content/uploads/2022/04/Simpson-Buildings-Website.qt" />
+				<source type="video/mp4" data-src="wp-content/uploads/2022/04/Simpson-Buildings-Website.mp4" />
 				
 			</video>
 				</span>
@@ -700,7 +700,7 @@ jQuery(document).ready(function(){
 				<span class="et_pb_section_video_bg  ">
 					
 			<video class="claude-defer-play" preload="none" poster="wp-content/uploads/2022/03/DF778459-126F-4D78-9A78-922E0653ED87.jpg" loop="loop" playsinline muted >
-				<source type="video/mp4" data-src="wp-content/uploads/2022/04/Simpson-Buildings-Website-Vertical.qt" />
+				<source type="video/mp4" data-src="wp-content/uploads/2022/04/Simpson-Buildings-Website-Vertical.mp4" />
 				
 			</video>
 				</span>
@@ -1927,7 +1927,7 @@ var et_pb_sticky_elements = {"et_pb_section_1_tb_header":{"id":"et_pb_section_1_
 			<span class="et_pb_scroll_top et-pb-icon"></span>
 	<script>
 /* CLAUDE-DEFER-HERO-VIDEO: lazy-loads background hero videos so page paints on the poster first. */
-addEventListener("load",function(){var f=function(){document.querySelectorAll("video.claude-defer-play").forEach(function(v){v.querySelectorAll("source").forEach(function(s){if(s.dataset.src){s.src=s.dataset.src;}});v.load();var p=v.play();if(p&&p.catch){p.catch(function(){});}});};if(window.requestIdleCallback){requestIdleCallback(f,{timeout:1500});}else{setTimeout(f,600);}});
+addEventListener("load",function(){var f=function(){document.querySelectorAll("video.claude-defer-play").forEach(function(v){v.querySelectorAll("source").forEach(function(s){if(s.dataset.src){s.src=s.dataset.src;}});v.load();var p=v.play();if(p&&p.catch){p.catch(function(){});}});};if(window.requestIdleCallback){requestIdleCallback(f,{timeout:200});}else{setTimeout(f,150);}});
 </script>
 </body>
 
